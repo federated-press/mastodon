@@ -105,7 +105,7 @@ en:
       imports:
         data: CSV file exported from another Mastodon server
       invite_request:
-        text: This will help us review your application
+        text: Please tell us who you are, why you want to be here, and how our <a href="https://federated.press/about">Code of Ethics</a> resonates with you. It can also help to include links to other social media profiles if you have them.
       ip_block:
         comment: Optional. Remember why you added this rule.
         expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
