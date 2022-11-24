@@ -1,0 +1,16 @@
+!!!
+%html{ lang: I18n.locale }
+  %head
+    %meta{ content: 'text/html; charset=UTF-8', 'http-equiv' => 'Content-Type' }/
+    %meta{ charset: 'utf-8' }/
+    %title= safe_join([yield(:page_title), Setting.default_settings['site_title']], ' - ')
+    %meta{ content: 'width=device-width,initial-scale=1', name: 'viewport' }/
+    = stylesheet_pack_tag 'common', media: 'all', crossorigin: 'anonymous'
+    = stylesheet_pack_tag Setting.default_settings['theme'], media: 'all', crossorigin: 'anonymous'
+    = javascript_pack_tag 'common', crossorigin: 'anonymous'
+    = javascript_pack_tag 'error', crossorigin: 'anonymous'
+  %body.error
+    .dialog
+      .dialog__message
+        %h1 We'll be back in a while!
+        %p Check our <a href="https://status.federated.press" style="color: white;">status page</a> for updates.
