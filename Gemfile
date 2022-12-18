@@ -206,3 +206,4 @@ gem 'rubyzip', '~> 2.3'
 gem 'hcaptcha', '~> 7.1'
 
 gem "honeybadger", "~> 5.0", github: "honeybadger-io/honeybadger-ruby", branch: "semantic_logger_host"
+gem "sidekiq-cloudwatchmetrics", "~> 2.3"
