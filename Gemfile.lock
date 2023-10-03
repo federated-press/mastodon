@@ -8,6 +8,14 @@ GIT
       jwt (~> 2.0)
 
 GIT
+  remote: https://github.com/honeybadger-io/honeybadger-ruby.git
+  revision: 61cef62af5c1b96328bbac210af0f4df87f4d497
+  branch: semantic_logger_host
+  specs:
+    honeybadger (5.1.0)
+      semantic_logger (~> 4.12)
+
+GIT
   remote: https://github.com/jhawthorn/nsa.git
   revision: e020fcc3a54d993ab45b7194d89ab720296c111b
   ref: e020fcc3a54d993ab45b7194d89ab720296c111b
@@ -690,6 +698,8 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+    semantic_logger (4.14.0)
+      concurrent-ruby (~> 1.0)
     semantic_range (3.0.0)
     sidekiq (6.5.9)
       connection_pool (>= 2.2.5, < 3)
@@ -860,6 +870,7 @@ DEPENDENCIES
   haml_lint
   hcaptcha (~> 7.1)
   hiredis (~> 0.6)
+  honeybadger (~> 5.0)!
   htmlentities (~> 4.3)
   http (~> 5.1)
   http_accept_language (~> 2.1)

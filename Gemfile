@@ -204,3 +204,5 @@ gem 'net-http', '~> 0.3.2'
 gem 'rubyzip', '~> 2.3'
 
 gem 'hcaptcha', '~> 7.1'
+
+gem "honeybadger", "~> 5.0", github: "honeybadger-io/honeybadger-ruby", branch: "semantic_logger_host"

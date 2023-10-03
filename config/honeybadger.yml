@@ -1,0 +1,6 @@
+---
+exceptions:
+  ignore:
+    - !ruby/class 'Stoplight::Error'
+auto_logging:
+  enabled: true
