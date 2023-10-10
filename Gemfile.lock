@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/honeybadger-io/honeybadger-ruby.git
-  revision: 61cef62af5c1b96328bbac210af0f4df87f4d497
+  revision: 33b764fcc7e4aad58e58f2ba71495d266e46c4f6
   branch: semantic_logger_host
   specs:
     honeybadger (5.1.0)
